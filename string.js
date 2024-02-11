@@ -22,3 +22,14 @@ let  str3= "lu";
 let str4 = "college";
 
 console.log(str3.concat(str4));
+
+
+let banon = "goru"
+
+console.log(banon.replace("g","l"));
+
+
+
+let al="aluhula";
+
+console.log(al.charAt(2));
