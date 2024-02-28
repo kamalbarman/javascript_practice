@@ -7,12 +7,13 @@
 // n();
 
 
-function mul(a) {
-    
-    for (let i = 1; i<=10; i++){
-       let res = i * a;
-       return res;
+function sum(a) {
+    let res = 0;
+    for (let i = 1; i<=a; i++){
+        res = res + i;
     }
+    return res;
+    
 };
 
-mul(7);
+sum();
