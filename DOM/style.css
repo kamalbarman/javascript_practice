@@ -1,6 +1,18 @@
-body {
+.blue{
+  color: rgb(0, 140, 255);
+}
+.red{
+  color: rgb(255, 0, 0);
+}
+.box{
+  border: 2px solid black;
+  background-color: pink;
+}
+
+/* body {
   font-family: Arial;
 }
+
 
 #mainImg {
   width: 35%;
@@ -25,4 +37,4 @@ body {
 
 #description {
   background-color: antiquewhite;
-}
+} */
