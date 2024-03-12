@@ -14,6 +14,9 @@ while (true) {
         for (let i = 0; i < todo.length; i++) {
             console.log(i, todo[i]);
         }
+      let alu = document.querySelector("#demo");
+      alu.innerHTML="demo";
+    
         console.log("--------");
     } else if (req == "add") {
         let task = prompt("enter your task");
