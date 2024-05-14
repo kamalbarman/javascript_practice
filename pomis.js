@@ -50,7 +50,7 @@
 
     const promisFour = new Promise (function(relove,reject){
       setTimeout(function() {
-        let error = true;
+        let error = false;
         if(!error){
             relove({user: "kamal",email: "example@com"})
         }else{
@@ -62,7 +62,7 @@
 
 promisFour.then((user)=>{
     console.log(user);
-    return user.username
+    return user
 })
 .catch(function(error){
   console.log(error);
