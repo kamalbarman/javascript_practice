@@ -52,7 +52,7 @@ function generateRandomNumber() {
   
     // Input validation (optional)
     if (minNumber >= maxNumber) {
-      alert("type number under your range!");
+      alert("type number under your rang!");
       return;
     }
   
