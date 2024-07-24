@@ -1,7 +1,5 @@
-// let url = "http://universities.hipolabs.com/search?name=";
+const math = require("./math");
 
-// let btn = document.querySelector("button");
 
-const someValue = require("./math");
 
-console.log(someValue);
+console.log(math.sum(2, 2).pi);
